@@ -16,6 +16,8 @@ Bundle 'scrooloose/nerdtree.git'
 Bundle 'fholgado/minibufexpl.vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'bronson/vim-trailing-whitespace.git'
+" The built-in netrw in vim-7.4 has problem: P17. Netrw is closing buffers on its own
+Bundle 'eiginn/netrw'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
@@ -128,6 +130,7 @@ nnoremap <silent> <F9> :A<CR>
 "set tags
 map <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>
 
+" cscope -Rbq
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CSCOPE settings for vim
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
