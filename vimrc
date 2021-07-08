@@ -12,7 +12,7 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "
 " original repos on github
-Bundle 'scrooloose/nerdtree.git'
+Bundle 'preservim/nerdtree'
 Bundle 'fholgado/minibufexpl.vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'bronson/vim-trailing-whitespace.git'
