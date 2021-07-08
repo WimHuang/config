@@ -262,3 +262,10 @@ map <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>
     nmap <C-@><C-@>f :vert scs find f <C-R>=expand("<cfile>")<CR><CR>
     nmap <C-@><C-@>i :vert scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
     nmap <C-@><C-@>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
+
+set ts=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set smartindent
+set noswapfile
